@@ -1,26 +1,36 @@
 import React from 'react';
 
 import Container from '@material-ui/core/Container';
+import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 
-import ProTip from '../components/pro-tip';
-import Link from '../components/link';
+import Button from '../components/button';
+import Flex from '../components/flex';
+import Form from '../components/form';
 import Copyright from '../components/copyright';
 
 const Index = () => {
   return (
     <Container maxWidth="sm">
-      <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
-      </Box>
+      <Form>
+        <Flex
+          flexDirection="column"
+          my={15}
+          mx="auto"
+          maxWidth="280px"
+          textAlign="center"
+        >
+          <Typography variant="h4" component="h1" gutterBottom>
+            Login
+          </Typography>
+          <TextField label="Email" margin="normal" />
+          <TextField label="Password" type="password" margin="normal" />
+          <Button variant="contained" color="primary" my="20px">
+            Sign In
+          </Button>
+          <Copyright />
+        </Flex>
+      </Form>
     </Container>
   );
 };
