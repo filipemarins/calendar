@@ -8,7 +8,7 @@ const Copyright = () => {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <MuiLink color="inherit" href="#">
-        Calendar app
+        Calendar
       </MuiLink>{' '}
       {new Date().getFullYear()}
       {'.'}
