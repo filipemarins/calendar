@@ -7,6 +7,7 @@
     "build": "next build ./src",
     "start": "next start ./src",
     "test": "npx jest ./src",
+    "test:watch": "npx jest --watch ./src",
     "lint": "npx eslint ./src --fix"
   },
   "husky": {
