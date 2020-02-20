@@ -3,8 +3,8 @@ import Head from 'next/head';
 
 import Typography from '@material-ui/core/Typography';
 
-import Content from '../components/content';
-import Dashboard from '../components/dashboard';
+import Content from '../src/components/content';
+import Dashboard from '../src/components/dashboard';
 
 const Home = () => (
   <>
