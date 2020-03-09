@@ -26,8 +26,9 @@ const StyledDrawer = styled(Drawer)`
   white-space: nowrap;
 `;
 
-const ContentWrapper = styled.main`
+const ContentWrapper = styled.div`
   margin-left: ${drawerWidth}px;
+  width: 100%;
 `;
 
 const InvisibleToolbar = styled.div`
