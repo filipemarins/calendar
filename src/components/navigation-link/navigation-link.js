@@ -6,7 +6,7 @@ import { node, string } from 'prop-types';
 import ListItem from '@material-ui/core/ListItem';
 import Tooltip from '@material-ui/core/Tooltip';
 
-import Link from '../link';
+import Link from '../shared/link';
 
 export const StyledNavigationLink = styled(ListItem)`
   padding: ${({ theme }) => theme.spacing(3) - 4}px
