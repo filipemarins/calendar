@@ -7,7 +7,7 @@ import { ThemeProvider as MaterialUiProvider } from '@material-ui/core/styles';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import theme from '../src/themes/dark';
+import theme from '../themes/dark';
 
 export default class MyApp extends App {
   componentDidMount() {
@@ -27,6 +27,12 @@ export default class MyApp extends App {
           <meta
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
+          />
+          <meta name="theme-color" content={theme.palette.primary.main} />
+          <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+            as="font"
           />
         </Head>
         <StyledComponentProvider theme={theme}>

@@ -4,10 +4,10 @@ import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 
-import Button from '../src/components/shared/button';
-import Flex from '../src/components/shared/flex';
-import Form from '../src/components/shared/form';
-import Copyright from '../src/components/copyright';
+import Button from '../components/shared/button';
+import Flex from '../components/shared/flex';
+import Form from '../components/shared/form';
+import Copyright from '../components/copyright';
 
 const Index = () => {
   return (

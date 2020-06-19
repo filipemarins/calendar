@@ -3,8 +3,8 @@ import Head from 'next/head';
 
 import Typography from '@material-ui/core/Typography';
 
-import Content from '../src/components/shared/content';
-import Dashboard from '../src/components/dashboard';
+import Content from '../components/shared/content';
+import Dashboard from '../components/dashboard';
 
 const Calendar = () => (
   <>
