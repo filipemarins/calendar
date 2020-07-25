@@ -9,8 +9,8 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import HomeIcon from '@material-ui/icons/Home';
-import CalendarIcon from '@material-ui/icons/CalendarToday';
-import UserIcon from '@material-ui/icons/AccountCircle';
+import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 import Flex from '../shared/flex';
 import NavigationLink from '../navigation-link';
@@ -52,13 +52,13 @@ const Dashboard = ({ children }) => (
             <HomeIcon fontSize="large" />
           </NavigationLink>
           <NavigationLink title="Calendar" href="/calendar">
-            <CalendarIcon fontSize="large" />
+            <CalendarTodayIcon fontSize="large" />
           </NavigationLink>
         </List>
         <Divider />
         <List disablePadding>
           <NavigationLink title="User" href="/user">
-            <UserIcon fontSize="large" />
+            <AccountCircleIcon fontSize="large" />
           </NavigationLink>
         </List>
       </StyledDrawer>
