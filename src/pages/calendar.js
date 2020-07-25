@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Typography from '@material-ui/core/Typography';
 
 import Content from '../components/shared/content';
-import Dashboard from '../components/dashboard';
+import Dashboard from '../components/shared/dashboard';
 
 const Calendar = () => (
   <>

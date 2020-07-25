@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '../components/shared/button';
 import Flex from '../components/shared/flex';
 import Form from '../components/shared/form';
-import Copyright from '../components/copyright';
+import Copyright from '../components/shared/copyright';
 
 const Index = () => {
   return (

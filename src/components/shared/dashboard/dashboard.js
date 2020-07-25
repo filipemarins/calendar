@@ -12,8 +12,8 @@ import HomeIcon from '@material-ui/icons/Home';
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
-import Flex from '../shared/flex';
-import NavigationLink from '../navigation-link';
+import Flex from '../flex';
+import NavigationLink from './navigation-link';
 
 const drawerWidth = 67;
 
