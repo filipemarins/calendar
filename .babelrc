@@ -1,8 +1,13 @@
 {
-  "presets": [
-    "next/babel"
-  ],
+  "presets": ["next/babel"],
   "plugins": [
-    ["styled-components", { "minify": false }]
+    ["styled-components", { "minify": false }],
+    ["module-resolver", {
+      "alias": {
+        "components": "./src/components",
+        "pages": "./src/pages",
+        "tests": "./tests"
+      }
+    }]
   ]
 }

@@ -7,11 +7,11 @@ import Grid from '@material-ui/core/Grid';
 import AddIcon from '@material-ui/icons/Add';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 
-import Card from '../components/shared/card';
-import Content from '../components/shared/content';
-import Button from '../components/shared/button';
-import Dashboard from '../components/shared/dashboard';
-import Flex from '../components/shared/flex';
+import Card from 'components/shared/card';
+import Content from 'components/shared/content';
+import Button from 'components/shared/button';
+import Dashboard from 'components/shared/dashboard';
+import Flex from 'components/shared/flex';
 
 const Home = () => (
   <>

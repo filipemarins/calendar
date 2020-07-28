@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { mountWithTheme } from '../../../../../test/utils';
+import { mountWithTheme } from 'tests/utils';
 
 import NavigationLink, { StyledNavigationLink } from './navigation-link';
 
